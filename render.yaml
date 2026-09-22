@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: moltbot
+    env: docker
+    plan: free
+    region: oregon
+    buildCommand: ""
+    startCommand: ""
